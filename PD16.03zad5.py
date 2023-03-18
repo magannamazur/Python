@@ -9,4 +9,15 @@ def bi_convert(number: int) -> int:
 
     return result
 
-print(bi_convert(5))
+print(bi_convert(10))
+
+def dec_to_bin(value: int) -> list:
+    parts = []
+    while value != 0:
+        parts.append(value % 2)
+        # dzielone przez 2 bez reszty
+        value //= 2
+    # swpak
+    return parts[::-1]
+
+print(dec_to_bin(10))

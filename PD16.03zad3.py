@@ -18,3 +18,14 @@ else:
 print(f"Największa liczba to: {biggest}")
 
 print(f"Największa liczba to: {max([a,b,c])}")
+
+if a == b and b == c:
+    print("Liczby są takie same")
+elif a == b:
+    print("Liczby A i B są takie same")
+elif a == c:
+    print("Liczby A i C są takie same")
+elif b == c:
+    print("Liczby B i C są takie same")
+else:
+    print("Liczby są różne")

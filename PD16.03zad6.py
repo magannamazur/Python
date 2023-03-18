@@ -10,3 +10,8 @@ while i < len(text):
     i += 1
 
 print(suma)
+
+result = 0
+for i in text:
+    result += int(i)
+print(result)
