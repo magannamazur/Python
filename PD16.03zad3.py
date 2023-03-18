@@ -16,3 +16,5 @@ else:
         biggest = c
 
 print(f"Największa liczba to: {biggest}")
+
+print(f"Największa liczba to: {max([a,b,c])}")
